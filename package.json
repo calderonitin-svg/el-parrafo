@@ -1,0 +1,17 @@
+{
+  "name": "el-parrafo",
+  "version": "1.0.0",
+  "description": "Lector ligero de noticias en texto plano",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
+{
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
