@@ -1,7 +1,8 @@
 const express = require('express');
 const https = require('https');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
+
 
 // Dejamos los 3 grandes feeds más estables y masivos de texto plano en Colombia
 const medios = {
