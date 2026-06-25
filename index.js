@@ -192,7 +192,7 @@ app.get('/', (req, res) => {
     res.send(html);
 });
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
     console.log(`El Párrafo corriendo con total estabilidad en puerto ${port}`);
 });
 
